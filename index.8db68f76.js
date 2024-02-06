@@ -1,0 +1,2 @@
+!function(){var o=document.querySelector(".cookie"),e=document.querySelectorAll(".button");window.addEventListener("load",(function(){document.cookie.includes("SCD")||(o.classList.add("show"),e.forEach((function(e){e.addEventListener("click",(function(){o.classList.remove("show"),"acceptBtn"==e.id&&(document.cookie="cookieBy= SCD; max-age=2592000")}))})))})),console.log("".concat(navigator.language," język przeglądarki"))}();
+//# sourceMappingURL=index.8db68f76.js.map
